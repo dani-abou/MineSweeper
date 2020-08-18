@@ -42,6 +42,7 @@ class Gamestate:
         self.canvas.pack()
         mainloop()
 
+
     # Occurs on a left click and opens the tile, ends the game if needed
     # Converts the click's coordinates for the method that actually does the opening
     def open(self, event):
